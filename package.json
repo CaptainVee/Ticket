@@ -1,0 +1,30 @@
+{
+  "name": "ticket",
+  "version": "1.0.0",
+  "description": "a ticket support application",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CaptainVee/ticket.git"
+  },
+  "author": "Captain Vee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CaptainVee/ticket/issues"
+  },
+  "homepage": "https://github.com/CaptainVee/ticket#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "colors": "^1.4.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
