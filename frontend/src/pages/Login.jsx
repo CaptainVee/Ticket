@@ -3,7 +3,7 @@ import { FaSignInAlt } from "react-icons/fa";
 import {toast} from 'react-toastify'
 import {useSelector, useDispatch} from 'react-redux'
 import { useNavigate } from "react-router-dom";
-import {login, reset} from '../features/Auth/authSlice'
+import {login, reset} from '../features/auth/authSlice'
 import Spinner from "../components/Spinner";
 
 

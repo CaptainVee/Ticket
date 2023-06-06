@@ -3,7 +3,7 @@ import { FaUser } from "react-icons/fa";
 import {toast} from 'react-toastify'
 import {useNavigate} from 'react-router-dom'
 import {useSelector, useDispatch} from 'react-redux'
-import {register, reset} from '../features/Auth/authSlice'
+import {register, reset} from '../features/auth/authSlice'
 import Spinner from "../components/Spinner";
 
 function Register() {

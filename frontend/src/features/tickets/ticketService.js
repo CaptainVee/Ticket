@@ -14,7 +14,7 @@ const createTicket = async (ticketData, token) => {
     return response.data
 }
 
-// get user ticket
+// get user tickets
 const getTickets = async (token) => {
     const config = {
         headers: {
@@ -22,7 +22,7 @@ const getTickets = async (token) => {
         }
     }
     const response = await axios.get(API_URL, config)
-
+    console.log("lllllll", response)
     return response.data
 }
 
