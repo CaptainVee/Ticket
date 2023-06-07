@@ -22,19 +22,19 @@ const getTickets = async (token) => {
         }
     }
     const response = await axios.get(API_URL, config)
-    console.log("lllllll", response)
     return response.data
 }
 
 // get ticket details
 const getTicketDetails = async (ticketId, token) => {
+    console.log("k00000000000000000", token)
     const config = {
         headers: {
             Authorization: `Bearer ${token}`
         }
     }
     const response = await axios.get(API_URL + ticketId, config)
-
+    console.log("lllllll", response.data)
     return response.data
 }
 

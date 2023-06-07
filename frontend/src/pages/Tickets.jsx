@@ -16,6 +16,10 @@ function Tickets() {
     dispatch(getTickets())
   }, [dispatch])
 
+  if (tickets) {
+    console.log(tickets, "fglfklfkglfkgl")
+  }
+
   // NOTE: no need for loading state, we can check for absence of tickets
   // If we don't have tickets we are loading, if we do have tickets we just
   // need to update the tickets with latest tickets in the background
